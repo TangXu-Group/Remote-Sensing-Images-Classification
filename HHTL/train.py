@@ -173,7 +173,7 @@ def main():
 
     parser = argparse.ArgumentParser()
     # Required parameters
-    parser.add_argument("--name", default='UC_Merced82_best',
+    parser.add_argument("--name", default='NWPU',
                         help="Name of this run. Used for monitoring.")
     parser.add_argument("--dataset", default="NWPU19_1",
                         help="data path.")
