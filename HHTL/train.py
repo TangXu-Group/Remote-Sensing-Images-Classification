@@ -22,7 +22,6 @@ os.environ['CUDA_VISIBLE_DEVICES'] = '3'
 logger = logging.getLogger(__name__)
 device=torch.device('cuda' if torch.cuda.is_available() else 'cpu')
 torch.manual_seed(42)
-# torch.cuda.set_device(1)
 
 
 def train(args):
@@ -95,17 +94,12 @@ def train(args):
                 img, img_slic, label = img.to(device), img_slic.to(device), label.to(device)
                 logits, feature_yuan, feature_slic=model(img,img_slic)
                 
-#                 loss = criteon(logits, label)
-                
                 #new_dual_feature
                 ce_loss = criteon(logits, label)
                 contrast0_loss = con_loss(feature_yuan, label)
                 contrast1_loss = con_loss(feature_slic, label)
                 loss = ce_loss + (contrast0_loss + contrast1_loss) * 0.5
                 
-#                 print('ce_loss:',ce_loss)
-                
-
                 scheduler.step()
 
                 optimizer.zero_grad()
@@ -220,7 +214,7 @@ def main():
     parser.add_argument('--log_dir', default=root_path + 'log/new_log', type=str)
     args = parser.parse_args()
 
-    label_dict = {'UC_Merced': 21, 'NWPU': 45, 'AID': 30, 'UC_Merced55_1': 21,'UC_Merced55_2': 21,'UC_Merced55_3': 21,'UC_Merced55_4': 21,'UC_Merced55_5': 21,'UC_Merced82_n1': 21, 'AID55_2': 30,'AID28_4': 30,'AID55_2': 30,'AID55_5': 30,'AID55seed1': 30, 'NWPU19_e1': 45,'NWPU19_7': 45, 'NWPU28_5': 45, 'NWPU28_6': 45,'NWPU28_7': 45,'RSSDIVCS19_1': 70,}
+    label_dict = {'UC_Merced': 21, 'NWPU': 45, 'AID': 30, 'RSSDIVCS': 70}
     args.label_dim = label_dict[args.dataset]
     args.img_tr = os.path.join(args.data_dir, args.dataset, 'train.txt')
     args.img_te = os.path.join(args.data_dir, args.dataset, 'test.txt')
