@@ -1,8 +1,10 @@
 # Homo-Heterogenous Transformer Learning Framework for Remote Sensing Scene Classification
-<!-- ![image](https://github.com/TangXu-Group/Remote-Sensing-Images-Classification/blob/main/HHTL/image/framework.png) -->
+
+The official code for paper "Homo-Heterogenous Transformer Learning Framework for Remote Sensing Scene Classification"
+
 <img src="https://github.com/TangXu-Group/Remote-Sensing-Images-Classification/blob/main/HHTL/image/framework.png" width="900px">
 
-Pytorch code for paper "Homo-Heterogenous Transformer Learning Framework for Remote Sensing Scene Classification"
+
 
 ## Install dependencies
     timm, pip install timm=0.3.4
