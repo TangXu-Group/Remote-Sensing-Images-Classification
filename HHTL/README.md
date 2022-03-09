@@ -2,7 +2,7 @@
 
 The official code for paper "Homo-Heterogenous Transformer Learning Framework for Remote Sensing Scene Classification"
 
-<img src="https://github.com/TangXu-Group/Remote-Sensing-Images-Classification/blob/main/HHTL/image/framework.png" width="850px">
+<img src="https://github.com/TangXu-Group/Remote-Sensing-Images-Classification/blob/main/HHTL/image/framework.png" width="800px">
 
 
 
