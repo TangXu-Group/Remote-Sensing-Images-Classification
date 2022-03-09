@@ -184,7 +184,7 @@ class Embeddings(nn.Module):
 #         # print(batch_img.shape)    #shape=(batch_size,3,224,224)
 #         x = batch_img
 
-        #online
+        #offline
         if self.hybrid:
             x = self.hybrid_model(x)
         x = self.patch_embeddings(x)   #(64,768,7,7)
