@@ -1,3 +1,5 @@
+# offline segmentation of images
+
 from skimage.segmentation import slic
 from skimage.util import img_as_float
 import numpy as np
