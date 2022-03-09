@@ -1,5 +1,5 @@
 # Homo-Heterogenous Transformer Learning Framework for Remote Sensing Scene Classification
-![跨源检索](https://github.com/TangXu-Group/Remote-Sensing-Images-Classification/tree/main/HHTL/image/framework.png)
+![跨源检索](https://github.com/TangXu-Group/Remote-Sensing-Images-Classification/tree/main/HHTL/image/framework.jpg)
 
 The official codes for paper "Homo-Heterogenous Transformer Learning Framework for Remote Sensing Scene Classification"
 
