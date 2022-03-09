@@ -1,1 +1,3 @@
-download the
+
+## Download pretrained model
+    ViT-B-32
