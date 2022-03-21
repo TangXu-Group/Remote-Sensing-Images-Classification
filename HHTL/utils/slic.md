@@ -1,1 +1,1 @@
-You can get the segmented image by running pre_slic_384.py
+The segmented images can be obtained by pre_slic_384.py
