@@ -1,8 +1,7 @@
-# Homo-Heterogenous Transformer Learning Framework for Remote Sensing Scene Classification
+# Class-level Prototype Guided Multi-Scale Feature Learning for Remote Sensing Scene Classification with Limited Labels
+The official code for paper "Class-level Prototype Guided Multi-Scale Feature Learning for Remote Sensing Scene Classification with Limited Labels"
 
-The official code for paper "Homo-Heterogenous Transformer Learning Framework for Remote Sensing Scene Classification"
-
-<img src="https://github.com/TangXu-Group/Remote-Sensing-Images-Classification/blob/main/CPGL/image/CPGL.png" width="800px">
+<img src="https://github.com/TangXu-Group/Remote-Sensing-Images-Classification/blob/main/CPGL/image/CPGL.png" width="1000px">
 
 
 
