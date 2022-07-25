@@ -16,7 +16,7 @@ os.environ['CUDA_VISIBLE_DEVICES'] = '1'
 device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
 
 def get_args_parser():
-    root_path = '/home/amax/lmt/pytorch_project/resnet_transformer/'
+    root_path = '/home/amax/lmt/pytorch_project/EMTCAL/'
     parser = argparse.ArgumentParser('ResNet training and evaluation script', add_help=False)
     parser.add_argument('--batch_size', default=32, type=int)
     parser.add_argument('--epochs', default=100, type=int)
@@ -51,7 +51,7 @@ def get_args_parser():
     # Dataset parameters
     parser.add_argument("--dataset", default="UC_Merced",
                         help="Which dataset.")
-    parser.add_argument("--dataset_path", default="UC_Merced82_1",
+    parser.add_argument("--dataset_path", default="UC_Merced82",
                         help="dataset path.")
     parser.add_argument('--data_dir', default=root_path + 'dataset', type=str)
     parser.add_argument('--log_dir', default=root_path + 'log', type=str)
