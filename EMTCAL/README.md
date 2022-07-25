@@ -7,8 +7,8 @@ The official code for paper "EMTCAL: Efficient Multi-Scale Transformer and Cross
 
 
 ## Install dependencies
-    timm, pip install timm=0.3.4
-    pytorch>=1.7.1
+    timm, pip install timm=0.4.12
+    pytorch=1.8.1
 ## Data
 We conduct the experiments on four data sets, including UC Merced, AID, NWPU-RESISC45, and RSSDIVCS. To train and test our model, you should 
     download the data set and modify image's path according to your needs.
