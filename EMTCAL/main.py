@@ -102,13 +102,6 @@ def main():
 
 
     model = ResNet34Mvt(num_class=args.label_dim)
-
-    # print(model)
-    # from ptflops import get_model_complexity_info
-    # macs, params = get_model_complexity_info(model, (3, 224, 224), as_strings=True, print_per_layer_stat=True, verbose=True)
-    # print('flops:',macs)
-    # print('params:',params)
-
     model.to(device)
 
     num_params = count_parameters(model)
