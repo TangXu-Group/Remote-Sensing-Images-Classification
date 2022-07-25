@@ -1,8 +1,8 @@
-# Homo-Heterogenous Transformer Learning Framework for Remote Sensing Scene Classification
+# EMTCAL: Efficient Multi-Scale Transformer and Cross-Level Attention Learning for Remote Sensing Scene Classification
 
 The official code for paper "EMTCAL: Efficient Multi-Scale Transformer and Cross-Level Attention Learning for Remote Sensing Scene Classification"
 
-<img src="https://github.com/TangXu-Group/Remote-Sensing-Images-Classification/blob/main/HHTL/image/framework.png" width="800px">
+<img src="https://github.com/TangXu-Group/Remote-Sensing-Images-Classification/blob/main/EMTCAL/image/framework.jpg" width="800px">
 
 
 
