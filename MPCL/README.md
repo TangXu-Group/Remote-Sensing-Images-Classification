@@ -2,7 +2,7 @@
 
 The official code for paper "Multi-pretext-task Prototypes Guided Dynamic Contrastive Learning Network for Few-shot Remote Sensing Scene Classification"
 
-<img src="https://github.com/TangXu-Group/Remote-Sensing-Images-Classification/blob/main/CPGL/MPCL.png" width="1000px">
+<img src="https://github.com/TangXu-Group/Remote-Sensing-Images-Classification/blob/main/MPCL/MPCL.png" width="1000px">
 
 
 
