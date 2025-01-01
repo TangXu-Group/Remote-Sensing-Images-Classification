@@ -15,5 +15,6 @@ submitit
 
 #### Train
 By executing the following command, the experimental results can be obtained.
-
+```
 python -m torch.distributed.launch --nproc_per_node=1 --use_env main.py --model MSCN --batch-size 128 --data-set UCM --train_dir {path of training set} --test_dir {path of testing set} --k1 2 --k2 6 --g 8
+```
