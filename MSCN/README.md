@@ -1,5 +1,5 @@
 This repository provides the code for the method in our paper 'Multiscale Sparse Cross-Attention Network for Remote Sensing Scene Classification'. (TGRS2024)
-<img src="https://github.com/TangXu-Group/Remote-Sensing-Images-Classification/MSCN/framework.jpg" width="1000px">
+<img src="https://github.com/TangXu-Group/Remote-Sensing-Images-Classification/blob/main/MSCN/framework.jpg" width="1000px">
 If you have any questions, you can send me an email. My mail address is 22171214702@stu.xidian.edu.cn.
 
 # Datasets
